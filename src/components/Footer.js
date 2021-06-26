@@ -50,8 +50,8 @@ export default class Footer extends Component{
                         <div className="container">
                             <h4 className="footer-heading"><b>Browse Through Your Product Libarary!</b></h4>
                             <form>
-                                    <div className="search">
-                                        <input className="search-txt-footer" placeholder="Search Products" />
+                                    <div className="search d-none d-sm-block">
+                                        <input className=" search-txt-footer" placeholder="Search Products" />
                                         <Link className="search-btn" to={"#"} >
                                             <i class="fas fa-search"></i>
                                         </Link>
@@ -66,7 +66,7 @@ export default class Footer extends Component{
                     <div className="container">
                         <div className="row ">
                             <div className="col-3 col-sm-3">
-                                <img src="assets/images/logo.png" height="50"></img>
+                                <img src="assets/images/logo.png" alt="logo" height="50"></img>
                                 <ul class="list-unstyled">
                                     <li>contact@example.com</li>
                                     <li>+1 234-787-777</li>
